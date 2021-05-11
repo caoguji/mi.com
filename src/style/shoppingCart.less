@@ -1,41 +1,252 @@
-.header-c {
-    width: 1226px;
-    margin: 0 auto;
-    border: 1px solid red;
-    height: 100px;
-    line-height: 100px;
+body {
+    background: #f5f5f5;
+}
 
-    .hlogo {
-        float: left;
+.header {
+    border-bottom: 2px solid #ff6700;
+    background: #fff;
 
-        img {
-            width: 48px;
-            height: 48px;
+    .header-c {
+
+        width: 1226px;
+        margin: 0 auto;
+        // border: 1px solid red;
+        height: 100px;
+        line-height: 100px;
+
+        .hlogo {
+            float: left;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+
+
+
+            p {
+                text-indent: -9999px;
+            }
         }
 
+        .info {
+            margin-left: 40px;
+            float: left;
 
+            h1 {
+                float: left;
+                font-size: 28px;
+                font-weight: 400;
+            }
 
-        p {
-            text-indent: -9999px;
+            p {
+                float: left;
+                font-size: 12px;
+                color: #757575;
+                margin-left: 12px;
+                margin-top: 5px;
+            }
+        }
+
+        .login {
+            float: right;
+            margin-right: 10px;
+
+            a {
+                color: #757575;
+                font-size: 12px;
+
+            }
+
+            span {
+                color: #757575;
+                margin: 0 1em;
+            }
+
+            .user {
+                >:nth-child(1) {
+                    float: left;
+                }
+
+                >:nth-child(2) {
+                    float: left;
+                }
+
+                >:nth-child(3) {
+                    float: right;
+                }
+            }
         }
     }
+}
 
-    .info {
-        margin-left: 40px;
-        float: left;
 
-        h1 {
-            float: left;
-            font-size: 28px;
-            font-weight: 400;
+.main {
+    padding: 38px 0;
+    background: #f5f5f5;
+
+    .main-c {
+        background: #fff;
+        width: 1226px;
+        margin: 0 auto;
+        height: 70px;
+        line-height: 70px;
+        border: 1px solid red;
+
+        // box-sizing: border-box;
+        // padding: 0 20px;1
+        // margin: 0 20px;
+        // padding-left: 20px;
+
+        .ck {
+            margin-left: 26px;
         }
 
-        p {
+        .cart-thead {
+            font-size: 14px;
+            color: #424242;
+            width: 100%;
+
+            div {
+                float: left;
+            }
+
+            .t-checkbox {
+                // margin-left: 20px;
+
+                // width: 1px;
+                // height: 1px;
+                p {
+                    float: right;
+                }
+            }
+
+            .checkAll {
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+                margin-top: 25px;
+            }
+
+            .t-goods {
+                margin-left: 150px;
+            }
+
+            .t-price {
+                margin-left: 370px;
+            }
+
+            .t-num {
+                margin-left: 135px;
+            }
+
+            .t-sum {
+                margin-left: 150px;
+            }
+
+            .t-action {
+                margin-left: 110px;
+            }
+        }
+
+        .cart-item-list {
+            background: #fff;
+            width: 1226px;
+
+            div {
+                float: left;
+            }
+
+            input {
+                width: 18px;
+                height: 18px;
+            }
+
             float: left;
-            font-size: 12px;
-            color: #757575;
-            margin-left: 12px;
-            margin-top: 5px;
+
+            .cart-item {
+                // border: 1px solid red;
+                padding: 15px 26px 15px 0;
+                border-top: 1px solid #e0e0e0;
+
+                .p-checkbox {
+                    width: 110px;
+                    float: left;
+                }
+
+                .p-img {
+                    img {
+                        width: 80px;
+                    }
+
+                    width: 120px;
+                }
+
+                .p-name {
+                    width: 380px;
+                }
+
+                .p-price {
+                    width: 128px;
+                    text-align: center;
+                    padding-right: 30px;
+                    // font-size: 16px;
+                }
+
+                .p-num {
+                    width: 150px;
+                    margin-top: 20px;
+
+                    .change-goods-num {
+
+                        width: 148px;
+                        height: 38px;
+                        border: 1px solid #e0e0e0;
+                        text-align: center;
+                        background-color: #fff;
+
+                        .decrement,
+                        .increment {
+                            float: left;
+                            width: 38px;
+                            height: 38px;
+                            line-height: 38px;
+                            color: #757575;
+                            font-size: 20px;
+                        }
+
+                        .itxt {
+                            float: left;
+                            width: 72px;
+                            height: 38px;
+                            line-height: 38px;
+                            padding: 0;
+                            border-width: 0;
+                            color: #424242;
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+
+
+                }
+
+                .p-sum {
+                    width: 200px;
+                    text-align: center;
+                    color: #ff6700
+                }
+
+                .p-action {
+                    width: 60px;
+                    text-align: center;
+                    margin-right: 20px;
+                    color: #757575;
+                }
+            }
+
+
+            float: left;
         }
     }
 }

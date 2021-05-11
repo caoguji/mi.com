@@ -1,33 +1,183 @@
-.header-c {
+body {
+  background: #f5f5f5;
+}
+.header {
+  border-bottom: 2px solid #ff6700;
+  background: #fff;
+}
+.header .header-c {
   width: 1226px;
   margin: 0 auto;
-  border: 1px solid red;
   height: 100px;
   line-height: 100px;
 }
-.header-c .hlogo {
+.header .header-c .hlogo {
   float: left;
 }
-.header-c .hlogo img {
+.header .header-c .hlogo img {
   width: 48px;
   height: 48px;
 }
-.header-c .hlogo p {
+.header .header-c .hlogo p {
   text-indent: -9999px;
 }
-.header-c .info {
+.header .header-c .info {
   margin-left: 40px;
   float: left;
 }
-.header-c .info h1 {
+.header .header-c .info h1 {
   float: left;
   font-size: 28px;
   font-weight: 400;
 }
-.header-c .info p {
+.header .header-c .info p {
   float: left;
   font-size: 12px;
   color: #757575;
   margin-left: 12px;
   margin-top: 5px;
+}
+.header .header-c .login {
+  float: right;
+  margin-right: 10px;
+}
+.header .header-c .login a {
+  color: #757575;
+  font-size: 12px;
+}
+.header .header-c .login span {
+  color: #757575;
+  margin: 0 1em;
+}
+.header .header-c .login .user > :nth-child(1) {
+  float: left;
+}
+.header .header-c .login .user > :nth-child(2) {
+  float: left;
+}
+.header .header-c .login .user > :nth-child(3) {
+  float: right;
+}
+.main {
+  padding: 38px 0;
+  background: #f5f5f5;
+}
+.main .main-c {
+  background: #fff;
+  width: 1226px;
+  margin: 0 auto;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid red;
+}
+.main .main-c .ck {
+  margin-left: 26px;
+}
+.main .main-c .cart-thead {
+  font-size: 14px;
+  color: #424242;
+  width: 100%;
+}
+.main .main-c .cart-thead div {
+  float: left;
+}
+.main .main-c .cart-thead .t-checkbox p {
+  float: right;
+}
+.main .main-c .cart-thead .checkAll {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.main .main-c .cart-thead .t-goods {
+  margin-left: 150px;
+}
+.main .main-c .cart-thead .t-price {
+  margin-left: 370px;
+}
+.main .main-c .cart-thead .t-num {
+  margin-left: 135px;
+}
+.main .main-c .cart-thead .t-sum {
+  margin-left: 150px;
+}
+.main .main-c .cart-thead .t-action {
+  margin-left: 110px;
+}
+.main .main-c .cart-item-list {
+  background: #fff;
+  width: 1226px;
+  float: left;
+}
+.main .main-c .cart-item-list div {
+  float: left;
+}
+.main .main-c .cart-item-list input {
+  width: 18px;
+  height: 18px;
+}
+.main .main-c .cart-item-list .cart-item {
+  padding: 15px 26px 15px 0;
+  border-top: 1px solid #e0e0e0;
+}
+.main .main-c .cart-item-list .cart-item .p-checkbox {
+  width: 110px;
+  float: left;
+}
+.main .main-c .cart-item-list .cart-item .p-img {
+  width: 120px;
+}
+.main .main-c .cart-item-list .cart-item .p-img img {
+  width: 80px;
+}
+.main .main-c .cart-item-list .cart-item .p-name {
+  width: 380px;
+}
+.main .main-c .cart-item-list .cart-item .p-price {
+  width: 128px;
+  text-align: center;
+  padding-right: 30px;
+}
+.main .main-c .cart-item-list .cart-item .p-num {
+  width: 150px;
+  margin-top: 20px;
+}
+.main .main-c .cart-item-list .cart-item .p-num .change-goods-num {
+  width: 148px;
+  height: 38px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  background-color: #fff;
+}
+.main .main-c .cart-item-list .cart-item .p-num .change-goods-num .decrement,
+.main .main-c .cart-item-list .cart-item .p-num .change-goods-num .increment {
+  float: left;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  color: #757575;
+  font-size: 20px;
+}
+.main .main-c .cart-item-list .cart-item .p-num .change-goods-num .itxt {
+  float: left;
+  width: 72px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0;
+  border-width: 0;
+  color: #424242;
+  font-size: 16px;
+  text-align: center;
+}
+.main .main-c .cart-item-list .cart-item .p-sum {
+  width: 200px;
+  text-align: center;
+  color: #ff6700;
+}
+.main .main-c .cart-item-list .cart-item .p-action {
+  width: 60px;
+  text-align: center;
+  margin-right: 20px;
+  color: #757575;
 }
