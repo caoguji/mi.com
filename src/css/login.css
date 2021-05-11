@@ -1,0 +1,122 @@
+.bimg {
+  background: url("../images/login-back.jpg") 0 -70px;
+  background-size: 375px 900px;
+  height: 900px;
+  width: 375px;
+  float: left;
+  position: fixed;
+  left: 0;
+}
+.main {
+  margin-left: 375px;
+  overflow: auto;
+  height: auto;
+}
+.main .main-c .header {
+  padding: 20px;
+  height: 80px;
+}
+.main .main-c .header .header-title {
+  float: left;
+}
+.main .main-c .header .header-title img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+}
+.main .main-c .header .header-title h1 {
+  float: left;
+  font-size: 26px;
+  font-weight: normal;
+  color: #333;
+}
+.main .main-c .header .mi-nav {
+  float: right;
+}
+.main .main-c .header .mi-nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+  line-height: 40px;
+}
+.main .main-c .header .mi-nav span {
+  color: #838383;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.main .main-c .login {
+  box-shadow: 0px 5px 30px #ddd;
+  position: relative;
+  width: 360px;
+  height: 520px;
+  margin: 0 auto;
+  padding: 40px 45px;
+}
+.main .main-c .login .ll {
+  height: 40px;
+}
+.main .main-c .login .ll a {
+  font-size: 22px;
+}
+.main .main-c .login .login-text input,
+.main .main-c .login .login-pwd input {
+  height: 60px;
+  line-height: 20px;
+  border: none;
+  color: #333;
+  background: #F9F9F9;
+  width: 356px;
+  font-size: 17px;
+  padding: 20px 20px 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.main .main-c .login .btn {
+  width: 356px;
+  height: 60px;
+  color: #fff;
+  background-color: #ff5c00;
+  border: none;
+  font-size: 18px;
+}
+.main .main-c .login .forget div {
+  margin-top: 12px;
+}
+.main .main-c .login .forget a {
+  color: #ff5c00;
+}
+.main .main-c .login .forget > :nth-child(1) {
+  float: left;
+}
+.main .main-c .login .forget > :nth-child(2) {
+  float: right;
+}
+.main .main-c .login .other {
+  position: absolute;
+  bottom: 123px;
+  left: 176px;
+  color: #aaa;
+  font-size: 17px;
+}
+.main .main-c .login .login-1 {
+  border: 1px solid transparent;
+  position: absolute;
+  bottom: 36px;
+  left: 70px;
+}
+.main .main-c .login .login-1 img {
+  height: 80px;
+  border: none;
+}
+.footer {
+  margin-top: 86px;
+  margin-bottom: 22px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}

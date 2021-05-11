@@ -1,0 +1,66 @@
+body {
+  background-color: #F9F9F9;
+}
+.main-c {
+  width: 854px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.main-c .logo {
+  text-align: center;
+}
+.main-c .logo img {
+  width: 48px;
+  height: 48px;
+}
+.main-c .title {
+  font-size: 30px;
+  margin-top: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main-c .regist {
+  width: 332px;
+  margin: 0 auto;
+}
+.main-c .regist input {
+  width: 332px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+}
+.main-c .regist .account {
+  margin-bottom: 38px;
+}
+.main-c .regist button {
+  width: 330px;
+  height: 42px;
+  background: #ff936a;
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+}
+.main-c .regist .msg {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #9d9d9d;
+}
+.main-c .regist .msg a {
+  font-weight: bold;
+  color: #000;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  font-size: 14px;
+  color: #757575;
+}
+.footer span {
+  margin: 0 0.3em;
+}
+.footer .info a {
+  color: #9d9d9d;
+}
