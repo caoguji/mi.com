@@ -66,9 +66,6 @@ body {
   background: #fff;
   width: 1226px;
   margin: 0 auto;
-  height: 70px;
-  line-height: 70px;
-  border: 1px solid red;
 }
 .main .main-c .ck {
   margin-left: 26px;
@@ -77,9 +74,14 @@ body {
   font-size: 14px;
   color: #424242;
   width: 100%;
+  height: 70px;
+  line-height: 70px;
 }
 .main .main-c .cart-thead div {
   float: left;
+}
+.main .main-c .cart-thead .t-checkbox {
+  height: 70px;
 }
 .main .main-c .cart-thead .t-checkbox p {
   float: right;
@@ -124,6 +126,7 @@ body {
 .main .main-c .cart-item-list .cart-item .p-checkbox {
   width: 110px;
   float: left;
+  margin-top: 24px;
 }
 .main .main-c .cart-item-list .cart-item .p-img {
   width: 120px;
@@ -133,11 +136,13 @@ body {
 }
 .main .main-c .cart-item-list .cart-item .p-name {
   width: 380px;
+  margin-top: 24px;
 }
 .main .main-c .cart-item-list .cart-item .p-price {
   width: 128px;
   text-align: center;
   padding-right: 30px;
+  margin-top: 24px;
 }
 .main .main-c .cart-item-list .cart-item .p-num {
   width: 150px;
@@ -174,10 +179,31 @@ body {
   width: 200px;
   text-align: center;
   color: #ff6700;
+  margin-top: 24px;
 }
 .main .main-c .cart-item-list .cart-item .p-action {
   width: 60px;
   text-align: center;
   margin-right: 20px;
   color: #757575;
+  margin-top: 24px;
+}
+.cart-bar {
+  float: left;
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  margin-top: 16px;
+  line-height: 50px;
+  font-size: 14px;
+}
+.cart-bar .section-left {
+  margin-left: 26px;
+}
+.cart-bar .section-left p {
+  float: left;
+}
+.cart-bar .section-left i {
+  font-style: normal;
+  color: #ff6700;
 }
