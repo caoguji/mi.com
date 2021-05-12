@@ -1,6 +1,3 @@
-body {
-  background: #f5f5f5;
-}
 .header {
   border-bottom: 2px solid #ff6700;
   background: #fff;
@@ -188,22 +185,55 @@ body {
   color: #757575;
   margin-top: 24px;
 }
-.cart-bar {
+.main .main-c .null {
   float: left;
+  height: 16px;
+  width: 1226px;
+  background: #f5f5f5;
+}
+.main .main-c .cart-bar {
   height: 50px;
-  width: 100%;
-  background: #fff;
-  margin-top: 16px;
+  width: 1226px;
   line-height: 50px;
   font-size: 14px;
+  background: #fff;
 }
-.cart-bar .section-left {
+.main .main-c .cart-bar .section-left {
   margin-left: 26px;
+  color: #757575;
 }
-.cart-bar .section-left p {
+.main .main-c .cart-bar .section-left a {
+  color: #757575;
+}
+.main .main-c .cart-bar .section-left p {
   float: left;
 }
-.cart-bar .section-left i {
+.main .main-c .cart-bar .section-left i {
   font-style: normal;
   color: #ff6700;
+}
+.main .main-c .cart-bar .section-right .totle {
+  margin-right: 30px;
+  color: #ff6700;
+}
+.main .main-c .cart-bar .section-right .totle em {
+  font-size: 30px;
+  font-style: normal;
+  margin-left: 10px;
+}
+.main .main-c .settlement {
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  background: #ff6700;
+  float: right;
+  text-align: center;
+}
+.main .main-c .settlement a {
+  color: #fff;
+}
+.more .more-c {
+  width: 1226px;
+  margin: 0 auto;
 }

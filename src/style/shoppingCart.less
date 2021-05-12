@@ -1,9 +1,5 @@
 @color: #ff6700;
 
-body {
-    background: #f5f5f5;
-}
-
 .header {
     border-bottom: 2px solid #ff6700;
     background: #fff;
@@ -92,6 +88,8 @@ body {
         width: 1226px;
         margin: 0 auto;
         // border: 1px solid red;
+        // clear: both;
+        // overflow: hidden;
         // box-sizing: border-box;
         // padding: 0 20px;1
         // margin: 0 20px;
@@ -153,7 +151,6 @@ body {
             background: #fff;
             width: 1226px;
 
-
             div {
                 float: left;
             }
@@ -166,6 +163,7 @@ body {
             float: left;
 
             .cart-item {
+
                 // border: 1px solid red;
                 padding: 15px 26px 15px 0;
                 border-top: 1px solid #e0e0e0;
@@ -254,30 +252,84 @@ body {
 
             float: left;
         }
+
+        .null {
+            float: left;
+            height: 16px;
+            width: 1226px;
+            background: #f5f5f5;
+
+        }
+
+        .cart-bar {
+            height: 50px;
+            width: 1226px;
+            background: #fff;
+            // margin-top: 16px;
+            line-height: 50px;
+            font-size: 14px;
+            // border: 1px solid red;
+            background: #fff;
+
+            .section-left {
+                margin-left: 26px;
+                color: #757575;
+
+                a {
+                    color: #757575;
+                }
+
+                p {
+                    float: left;
+                }
+
+                i {
+                    font-style: normal;
+                    color: @color;
+
+                }
+            }
+
+            .section-right {
+
+
+                .totle {
+                    margin-right: 30px;
+                    color: #ff6700;
+
+                    em {
+                        font-size: 30px;
+                        font-style: normal;
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+
+        }
+
+        .settlement {
+            width: 200px;
+            height: 48px;
+            line-height: 48px;
+            font-size: 18px;
+            background: #ff6700;
+            float: right;
+            text-align: center;
+
+            a {
+                color: #fff;
+            }
+        }
     }
 }
 
-.cart-bar {
-    float: left;
-    height: 50px;
-    width: 100%;
-    background: #fff;
-    margin-top: 16px;
-    line-height: 50px;
-    font-size: 14px;
-
-    .section-left {
-        margin-left: 26px;
-
-        p {
-            float: left;
-        }
-
-        i {
-            font-style: normal;
-            color: @color;
-
+.more {
+    .more-c {
+        width: 1226px;
+        margin: 0 auto;
+        .m-title{
+            
         }
     }
-
 }
